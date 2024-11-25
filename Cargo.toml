@@ -1,0 +1,10 @@
+[package]
+name = "wab"
+version = "0.1.0"
+authors = ["jkew"]
+
+[dependencies]
+pest = "2.6"
+pest_derive = "2.6"
+hexf = "0.2.1"
+

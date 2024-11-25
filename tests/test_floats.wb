@@ -1,0 +1,69 @@
+var a = 2;
+
+var x = 2.1;
+var y = 3.4;
+var z = x + y;
+
+print z;
+print x - y;
+print x * y;
+print x / y;
+
+func f(a float) float {
+    var c = a + a;
+    return c;
+}
+
+print f(x, y);
+
+if x < y {
+   print 1;
+} else {
+   print 0;
+}
+
+if x <= y {
+   print 1;
+} else {
+   print 0;
+}
+
+if x <= x {
+   print 1;
+} else {
+   print 0;
+}
+
+if y > x {
+   print 1;
+} else {
+   print 0;
+}
+
+if y >= x {
+   print 1;
+} else {
+   print 0;
+}
+
+if y >= y {
+   print 1;
+} else {
+   print 0;
+}
+
+if x == x {
+   print 1;
+} else {
+   print 0;
+}
+
+if x != y {
+   print 1;
+} else {
+   print 0;
+}
+
+
+
+

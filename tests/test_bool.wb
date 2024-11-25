@@ -1,0 +1,16 @@
+// test_bool.wb
+//
+// Test of booleans unified with expressions
+
+var x = true;
+var y bool;
+y = x and false;
+
+print x;       // Produces 'true'
+print y;       // Produces 'false'
+
+print x == y;  // Produces 'false'
+print x != y;  // Produces 'true'
+print not x;   // Produces 'false'
+
+

@@ -1,0 +1,22 @@
+func fact(g) {
+        var result = 1;
+        var x = 1;
+        while x < g {
+            result = result * x;
+        x = x + 1;
+        }
+        return result;
+    }
+    var a = 3;
+    var b = 5;
+    if a < b {
+        print a;
+     } else {
+        print b;
+     }
+    var n = 0;
+    while n < 10 {
+       print fact(n);
+       n = n + 1;
+    };
+    

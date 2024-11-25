@@ -1,0 +1,6 @@
+// Test of type conversions
+
+print 2 + int(3.5);     // 5
+print 2.5 + float(2);   // 4.5
+print char(65);         // 'A'
+print char(10);         // '\n'

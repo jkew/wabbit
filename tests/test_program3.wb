@@ -1,0 +1,10 @@
+// Program 3 : Functions (from Project 1)
+
+func square(x) {
+    var r = x * x;
+    return r;
+}
+
+var result = square(4);
+print result;
+

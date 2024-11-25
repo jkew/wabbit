@@ -1,0 +1,19 @@
+// test_shortcircuit.wb
+//
+// Tests short-circuit evaluation of `and` and `or` operators
+
+var x = 0;
+
+// This should print 1
+if x != 0 and 1/x > 0 {
+    print 0;
+} else {
+    print 1;
+}
+
+// This should print 1
+if x == 0 or 1/x > 0 {
+    print 1;
+} else {
+    print 0;
+}

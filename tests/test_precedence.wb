@@ -1,0 +1,13 @@
+// test_precedence.wb
+//
+// Tests for operator precedence
+
+var x = 2;
+var y = 3;
+var z = 4;
+
+print x + y * z;    // 14
+print x * y + z;    // 10
+print x + y - z;    // 1
+print x - y - z;    // -5
+print -x + y * z;   // 10
